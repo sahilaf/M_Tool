@@ -3829,14 +3829,14 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "send_email",
-        "user_query": "Rahul ke email daw je Leave is ready.",
+        "user_query": "Rahul ke email daw je Leave approved hoyeche",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "send_email",
             "parameters": {
                 "recipient": "Rahul",
                 "subject": "Leave",
-                "body": "Leave is ready."
+                "body": "Regarding my leave application"
             }
         },
         "difficulty": "medium",
@@ -4057,14 +4057,14 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "send_email",
-        "user_query": "Boss ke email daw je Leave is ready.",
+        "user_query": "Boss ke email daw je Leave approved hoyeche",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "send_email",
             "parameters": {
                 "recipient": "Boss",
                 "subject": "Leave",
-                "body": "Leave is ready."
+                "body": "Regarding my leave application"
             }
         },
         "difficulty": "medium",
@@ -4285,14 +4285,14 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "send_email",
-        "user_query": "Team ke email daw je Leave is ready.",
+        "user_query": "Team ke email daw je Leave approved hoyeche",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "send_email",
             "parameters": {
                 "recipient": "Team",
                 "subject": "Leave",
-                "body": "Leave is ready."
+                "body": "Regarding my leave application"
             }
         },
         "difficulty": "medium",
@@ -5330,14 +5330,14 @@
         "language": "english",
         "category": "English Baseline",
         "tool": "create_calendar_event",
-        "user_query": "Schedule Lunch on Monday at 10:00.",
+        "user_query": "Schedule Lunch on Monday at 13:00.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "create_calendar_event",
             "parameters": {
                 "title": "Lunch",
                 "date": "Monday",
-                "time": "10:00"
+                "time": "13:00"
             }
         },
         "difficulty": "easy",
@@ -5349,14 +5349,14 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "create_calendar_event",
-        "user_query": "Monday te 10:00 er dike Lunch fix koro.",
+        "user_query": "Monday te 13:00 er dike Lunch fix koro.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "create_calendar_event",
             "parameters": {
                 "title": "Lunch",
                 "date": "Monday",
-                "time": "10:00"
+                "time": "13:00"
             }
         },
         "difficulty": "medium",
@@ -5368,14 +5368,14 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "create_calendar_event",
-        "user_query": "Monday te 10:00 baje Lunch schedule koro.",
+        "user_query": "Monday te 13:00 baje Lunch schedule koro.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "create_calendar_event",
             "parameters": {
                 "title": "Lunch",
                 "date": "Monday",
-                "time": "10:00"
+                "time": "13:00"
             }
         },
         "difficulty": "medium",
@@ -5852,7 +5852,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5869,7 +5869,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5886,7 +5886,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5903,7 +5903,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5920,7 +5920,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5937,7 +5937,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5954,7 +5954,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5971,7 +5971,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -5988,7 +5988,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -6005,7 +6005,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": "tool_unavailable"
     },
     {
@@ -6469,7 +6469,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6486,7 +6486,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6503,7 +6503,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6520,7 +6520,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6537,7 +6537,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6554,7 +6554,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6571,7 +6571,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6588,7 +6588,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6605,7 +6605,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },
@@ -6622,7 +6622,7 @@
                 "destination": "London"
             }
         },
-        "difficulty": "hard",
+        "difficulty": "easy",
         "requires_clarification": true,
         "failure_type_injected": null
     },

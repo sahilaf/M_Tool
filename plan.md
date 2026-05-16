@@ -209,7 +209,7 @@ Model must clarify missing information.
 
 Target:
 
-- 3,000–5,000 examples
+- 6,000–7,000 examples (Original target: 3,000–5,000)
 
 NOT 100k examples.
 
@@ -266,12 +266,13 @@ high realism.
 
 ---
 
-## Phase 2 — Local LLM Expansion (A100)
+## Phase 2 — LLM Expansion (Gemini API)
 
-Use **Qwen2.5-32B-Instruct** (Primary) and **Llama-3.3-70B** (Validation) to generate:
+Use **Gemini 3.1 Flash Lite API** (Replaced Qwen2.5-32B due to hallucination issues) to generate:
 - **Persona-based variations**: WhatsApp style, code-switched.
 - **Pure Bangla**: Varied sentence structures.
-- **Naturalness Filter**: LLM-based scoring (score >= 3) to filter robotic output.
+- **Transliteration Tiers**: Full, Mixed, and Heavy Shorthand generated via prompt.
+- **Two-Pass Filter**: Semantic fidelity check + naturalness scoring (score >= 4).
 
 ## Phase 3 — Rule-Based Augmentation
 

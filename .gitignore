@@ -1,0 +1,26 @@
+.venv
+.venv/*
+
+# API keys - NEVER commit
+generation/expand_dataset.py
+
+# Checkpoints (large, can be regenerated)
+generation/checkpoint.jsonl
+
+# Runtime logs
+generation/expansion_log.txt
+
+# Temp scripts
+generation/export_checkpoint.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
