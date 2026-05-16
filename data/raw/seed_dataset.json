@@ -22,7 +22,7 @@
         "language": "bangla",
         "category": "Pure Multilingual",
         "tool": "get_weather",
-        "user_query": "আজ ঢাকা এর আবহাওয়া কেমন?",
+        "user_query": "আজ ঢাকার আবহাওয়া কেমন?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -40,7 +40,7 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "get_weather",
-        "user_query": "today Dhaka er weather kemon?",
+        "user_query": "today Dhakar weather kemon?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -58,7 +58,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Dhaka er weather report daw today.",
+        "user_query": "Today's Dhakar weather report dao",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -76,7 +76,7 @@
         "language": "bangla",
         "category": "Parameter Localization",
         "tool": "get_weather",
-        "user_query": "ঢাকা শহরের তাপমাত্রা কত?",
+        "user_query": "ঢাকার তাপমাত্রা কত?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -85,7 +85,7 @@
             }
         },
         "difficulty": "hard",
-        "requires_clarification": false,
+        "requires_clarification": true,
         "failure_type_injected": null
     },
     {
@@ -111,7 +111,7 @@
         "language": "bangla",
         "category": "Pure Multilingual",
         "tool": "get_weather",
-        "user_query": "আগামীকাল ঢাকা এর আবহাওয়া কেমন?",
+        "user_query": "আগামীকাল ঢাকার আবহাওয়া কেমন?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -129,7 +129,7 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "get_weather",
-        "user_query": "tomorrow Dhaka er weather kemon?",
+        "user_query": "Tomorrow Dhakar weather kemon?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -147,7 +147,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Dhaka er weather report daw tomorrow.",
+        "user_query": "Tomorrow's Dhakar weather report dao.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -165,7 +165,7 @@
         "language": "bangla",
         "category": "Parameter Localization",
         "tool": "get_weather",
-        "user_query": "ঢাকা শহরের তাপমাত্রা কত?",
+        "user_query": "ঢাকার তাপমাত্রা কত?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -236,7 +236,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Kolkata er weather report daw today.",
+        "user_query": "Today's Kolkata er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -289,7 +289,7 @@
         "language": "bangla",
         "category": "Pure Multilingual",
         "tool": "get_weather",
-        "user_query": "আগামীকাল কলকাতা এর আবহাওয়া কেমন?",
+        "user_query": "আগামীকাল কলকাতার আবহাওয়া কেমন?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -307,7 +307,7 @@
         "language": "bangla-english",
         "category": "Code-switching",
         "tool": "get_weather",
-        "user_query": "tomorrow Kolkata er weather kemon?",
+        "user_query": "tomorrow Kolkatar weather kemon?",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -325,7 +325,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Kolkata er weather report daw tomorrow.",
+        "user_query": "Tomorrow's Kolkata er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -414,7 +414,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Mumbai er weather report daw today.",
+        "user_query": "Today's Mumbai er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -503,7 +503,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Mumbai er weather report daw tomorrow.",
+        "user_query": "Tomorrow’s Mumbai er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -681,7 +681,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "Delhi er weather report daw tomorrow.",
+        "user_query": "Tomorrow’s Delhi er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -770,7 +770,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "London er weather report daw today.",
+        "user_query": "Today's London er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
@@ -859,7 +859,7 @@
         "language": "bangla-english",
         "category": "Transliteration",
         "tool": "get_weather",
-        "user_query": "London er weather report daw tomorrow.",
+        "user_query": "tomorrow’s London er weather report daw.",
         "conversation_context": [],
         "ground_truth": {
             "tool_name": "get_weather",
